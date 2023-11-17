@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/initial-page.css">
+    <link rel="stylesheet" href="../css/access-page.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
-    <title>Tony Pizzaria</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Login</title>
 </head>
 <body>
     <header>
@@ -17,10 +19,24 @@
     <main>
         <h2>Acesse a sua conta</h2>
         <p class="info">O que você está esperando para saborear as mais deliciosas pizzas e sobremesas da região?</p>
+        <div class="infos-usuarios">
+            <div class="email">
+                <span class="material-symbols-outlined">mail</span>
+                <input type="email" placeholder="Insira seu e-mail" aria-placeholder="Insira seu e-mail" name="email" id="email">
+            </div>
+            <div class="senha">
+                <span class="material-symbols-outlined">lock</span>
+                <input type="password" placeholder="Insira sua senha" aria-placeholder="Insira sua senha" name="senha" id="senha">
+            </div>
+        </div>
+        <button>
+            <a href="./tonypizzaria-home.html">Entrar</a>
+        </button>
+        <a class="reset-senha" href="">Esqueci a senha</a>
     </main>
     <footer>
-       <span>Ainda não tem uma conta?</span>
-       <a href="#">Criar Conta</a>
+       <span class="footer-conta">Ainda não tem uma conta?</span>
+       <a class="footer-a" href="#">Criar Conta</a>
     </footer>
 </body>
 </html>
