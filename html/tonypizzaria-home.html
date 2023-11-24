@@ -12,10 +12,13 @@
 </head>
 <body>
     <header>
-        <h1>Home</h1>
-        <p class="dia">Bom dia, </p>
-
-        <img class="icon" src="../img/icon.jpg" alt="">
+        <div class="header-top">
+            <div class="introducao">
+                <h1>Home</h1>
+                <p class="dia">Bom dia, Soobin</p>
+            </div>
+            <img class="icon" src="../img/icon.jpg" alt="">
+        </div>
 
         <label for="search">
             <input type="search" placeholder="Buscar algo para matar a minha fome">
@@ -24,21 +27,31 @@
     </header>
     <main>
         <div class="categorias">
-            <span>Categorias</span>
+            <span class="cat">Categorias</span>
             <div class="blocos">
+                <div class="bloco">
+                   <a href="#"> <img src="../img/logo.png" alt=""></a>
+                </div>
                 <div class="bloco">
                     <img src="../img/logo.png" alt="">
                 </div>
             </div>
         </div>
         <div class="favoritas">
+            <span class="fav">Minhas pizzas favoritas</span>
             <div class="container-favs">
-                <img class="foto-fav" src="../img/pizza1.png" alt="">
-                <div class="infos-pizza">
+                <div class="favorita">
+                    <img class="foto-fav" src="../img/pizza1.png" alt="">
+                    <span class="valor">R$ 16,00</span>
+                    <p class="descricao">Pizza de calabreza com queijo</p>
+                </div>
+                <div class="favorita">
+                    <img class="foto-fav" src="../img/pizza1.png" alt="">
                     <span class="valor">R$ 16,00</span>
                     <p class="descricao">Pizza de calabreza com queijo</p>
                 </div>
             </div>
+            
         </div>
         <div class="recomendados">
             <div class="container-recomendado">
