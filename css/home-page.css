@@ -82,7 +82,7 @@ main{
     flex-direction: column;
     padding-left: 24px;
 }
-.cat{
+.cat, .fav, .rec, .be{
     color: var(--branco);
     font-size: 15px;
     font-weight: 600;
@@ -107,17 +107,59 @@ main{
     width: 24px;
     height: 24px;
 }
-.favoritas{
+.favoritas, .recomendados{
     display: flex;
     flex-direction: column;
 }
-.container-favs{
+.container-favs, .container-recomendado{
     display: flex;
 }
-.foto-fav{
-    height: 100px;
+.favorita{
     width: 150px;
+    height: 100px;
+    background-image: url(../img/pizza1.png);
+    display: flex;
+    flex-direction: column;
+    place-content: end;
+    gap: 10px;
 }
+.pizza{
+    width: 175px;
+    height: 115px;
+    background-image: url(../img/pizza-rec.png);
+    display: flex;
+    flex-direction: column;
+    place-content: end;
+    gap: 10px;
+}
+.descricao-recomendados{
+    color: var(--branco);
+    font-size: 12px;
+    font-weight: 600;
+    text-shadow: 4px 2px 2px rgba(61, 54, 54, 0.8);
+}
+.valor{
+    width: 57px;
+    height: 20px;
+    border-radius: 12px;
+    background-color: var(--vermelho);
+    color: var(--branco);
+    font-size: 12px;
+    text-align: center;
+}
+.nome-favs{
+    color: var(--branco);
+    font-weight: 400;
+    font-size: 12px;
+    width: 102px;
+    height: 28px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 112px;
+    height: 36px;
+}
+
 footer{
     height: 50px;
 }
+
