@@ -8,25 +8,90 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <script src="../js/product.js" defer></script>
     <title>Tony Pizzaria</title>
 </head>
 <body>
     <picture></picture>
     <main>
-       <div class="top-produto">
-            <input type="checkbox" name="fav" id="fav">
+       <div class="produto">
+        <div class="top-produto">
+            <div class="fav" onclick="toogleLike()">
+                <input type="checkbox" name="fav" id="fav" class="like">
+                <label for="fav" class="like-label"></label>
+            </div>
             <h1 class="nome-produto">Pizza de peperoni com queijo</h1>
        </div>
-       <div class="favoritar"></div>
        <h2 class="preco">R$ 19,99</h2>
-       <p class="desc">Lorem ipsumm dolo sit amet, consectetur...</p>
+       <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
        <div class="estrelas">
        <img src="../img/Star rate.png" alt="">
        </div>
+       </div>
+
+       <div class="coments">
+        <div class="top">
+            <img src="../img/Chat.png" alt="símbolo-coment" class="coment-icon">
+            <p class="coment-titulo">Comentários</p>
+        </div>
+        <div class="container-comentarios">
+            <div class="comentario">
+                <div class="header-coment">
+                    <div class="user-coment-infos">
+                        <img class="icon-user" src="../img/iconGojo.jpg" alt="">
+                        <div class="infos">
+                            <span class="nome-coment">Satoru Gojo</span>
+                            <span class="data">07/12/2023</span>
+                        </div>
+                    </div> 
+                        <div class="avaliacao-coment">
+                            <img src="../img/Star rate.png" alt="" class="av-coment">
+                            <img src="../img/Star rate.png" alt="" class="av-coment">
+                            <img src="../img/Star rate.png" alt="" class="av-coment">
+                            <img src="../img/Star rate.png" alt="" class="av-coment">
+                        </div>
+                </div>    
+                <p class="texto-coment"><span class="titulo">Pizza muito boa!</span>Lorem ipsum dolor sit amet...</p>
+            </div>
+            <div class="comentario">
+                <div class="header-coment">
+                    <div class="user-coment-infos">
+                        <img class="icon-user" src="../img/iconChoso.jpg" alt="">
+                        <div class="infos">
+                            <span class="nome-coment">Choso Kamo</span>
+                            <span class="data">04/03/2023</span>
+                        </div>
+                    </div> 
+                        <div class="avaliacao-coment">
+                            <img src="../img/Star rate.png" alt="" class="av-coment">
+                            <img src="../img/Star rate.png" alt="" class="av-coment">
+                            <img src="../img/Star rate.png" alt="" class="av-coment">
+                            <img src="../img/Star rate.png" alt="" class="av-coment">
+                        </div>
+                </div>    
+                <p class="texto-coment"><span class="titulo">Muito gostosa!</span>Lorem ipsum dolor sit amet...</p>
+            </div>
+            <div class="comentario">
+                <div class="header-coment">
+                    <div class="user-coment-infos">
+                        <img class="icon-user" src="../img/iconBeom.jpg" alt="">
+                        <div class="infos">
+                            <span class="nome-coment">Beomgyu Choi</span>
+                            <span class="data">13/03/2023</span>
+                        </div>
+                    </div> 
+                        <div class="avaliacao-coment">
+                            <img src="../img/Star rate.png" alt="" class="av-coment">
+                            <img src="../img/Star rate.png" alt="" class="av-coment">
+                            <img src="../img/Star rate.png" alt="" class="av-coment">
+                            <img src="../img/Star rate.png" alt="" class="av-coment">
+                        </div>
+                </div>    
+                <p class="texto-coment"><span class="titulo">Pizza muito boa!</span>Lorem ipsum dolor sit amet...</p>
+            </div>
+        </div>
+       </div>
     </main>
-    <footer>
-        
-    </footer>
 </body>
 </html>
