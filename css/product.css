@@ -66,6 +66,10 @@ main{
     align-items: center;
     gap: 8px
 }
+.coracao{
+    width: 24px;
+    height: 22px;
+}
 .preco{
     color: var(--verde);
     font-size: 20px;
