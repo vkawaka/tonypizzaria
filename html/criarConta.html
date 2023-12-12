@@ -8,11 +8,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
-    <!-- <script src="../js/product.js" defer></script> -->
+    <script src="../js/criarConta.js" defer></script>
     <title>Criar Conta</title>
 </head>
 <body>
-    <picture></picture>
-    <main></main>
+    <picture>
+        
+    </picture>
+    <main>
+        <div class="conta-foto">
+            <label class="add-img">
+                <img src="../img/foto-perfil.png" alt="">
+                <input type="file" class="foto-perfil-input" id="input-foto">
+            </label>
+        </div>
+        <form class="infos-criar">
+            <div class="infos">
+                <div class="i"><label>Nome do usuário</label><input type="text" id="nome" required></div>
+                <div class="i"><label>E-mail</label><input type="email" id="email" required></div>
+                <div class="i"><label>Senha</label><input type="password" id="senha" required></div>
+                <div class="i"><label>Confirmação de senha</label><input type="senha" id="confSenha" required></div>
+                <div class="i"><label>Telefone</label><input type="tel" id="telefone" required></div>
+            </div>
+            <button id="criar">Criar conta</button>
+        </form>
+    </main>
 </body>
 </html>

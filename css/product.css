@@ -38,6 +38,17 @@ picture{
     background-size: 200%;
     background-position: center;
     padding: 32px;
+    position: relative;
+}
+.voltar{
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+.voltar img{
+     width: 12px;
+     height: 20px;
 }
 main{
     background-color: var(--branco);
