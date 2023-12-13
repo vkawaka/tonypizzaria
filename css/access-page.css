@@ -105,6 +105,9 @@ input{
     border: none;
     background-color: transparent;
 }
+input:focus{
+    outline-style: none;
+}
 ::placeholder{
     color: var(--branco);
     font-family: var(--fonte-principal);

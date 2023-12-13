@@ -34,8 +34,7 @@ picture{
     overflow: hidden;
     display: grid;
     place-content: center;
-    background-image: url(../img/pizza-rec.png);
-    background-size: 200%;
+    background-size: cover;
     background-position: center;
     padding: 32px;
     position: relative;

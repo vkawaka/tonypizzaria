@@ -121,18 +121,19 @@ main{
     flex-shrink: 0;
     width: 150px;
     height: 100px;
-    background-image: url(../img/pizza1.png);
     display: flex;
     flex-direction: column;
     place-content: end;
+    justify-content: end;
+    align-items: left;
     gap: 10px;
 }
 .pizza{
     flex-shrink: 0;
     width: 175px;
     height: 115px;
-    background-image: url(../img/pizza-rec.png);
     display: flex;
+    background-size: cover;
     flex-direction: column;
     place-content: end;
     gap: 10px;
@@ -167,7 +168,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: 12px;
-    overflow: hidden;
+    overflow: auto;
 }
 .container-bebida{
     width: 315px;
